@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+/* Definición de variables CSS */
+:root {
+  --primary-color: #e2a1cf;
+  --secondary-color: #f1eef0f5;
+  --tertiary-color: #c92b82;
+  --quaternary-color: #d968e4;
+  --text-color: #0e0707;
+}
+
+/* Estilos generales */
+body {
+  font-family: 'Libre Baskerville', sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--primary-color);
+}
+
+/* Estilos de navegación */
+nav {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos de encabezados */
+h1, h2 {
+  color: #a00fad;
+  margin: 10px 0;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 4px #491d49;
+}
+
+/* Estilos de enlaces */
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid #f5f2f4f5;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: var(--secondary-color);
+  color: #740352;
+}
+
+/* Estilos de menú */
+.menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f8f8;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.menu a {
+  color: var(--tertiary-color);
+}
+
+/* Estilos de pie de página */
+footer {
+  background-color: #F5F5F5;
+  color: #333;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.footer-content {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.sociales {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sociales li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.sociales a {
+  color: var(--quaternary-color);
+  text-decoration: none;
+}
